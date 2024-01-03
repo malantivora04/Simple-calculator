@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="input">
+                <Label for="t1">Enter first input:</Label>
+                <input type="text" id="t1">
+            </div>
+            <div class="input">
+                <label for="t2">Enter second input:</label>
+                <input type="text" id="t2">
+            </div>
+            <div class="btn">
+                <button id="add"  onclick="add()">+</button>
+                <button id="sub" value="" onclick="sub()">-</button>
+                <button id="mul" value="" onclick="mul()">*</button>
+                <button id="div" value="" onclick="div()">/</button>
+                <button id="mod" value="" onclick="mod()">%</button>
+            </div>
+            <div>
+                <p id="p1"></p>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>
